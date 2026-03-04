@@ -1,1 +1,81 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.id-card {
+    width: 350px;
+    background: white;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.sub-header {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.title {
+    margin: 10px 0;
+    color: rgb(122, 73, 3);
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.logo {
+    width: 70px;
+    margin-top: -70px;
+}
+
+.photo {
+    width: 150px;
+    height: 180px;
+    border: 3px solid black;
+}
+
+.details {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Building Image Section */
+.image-container {
+    width: 100%;
+    height: 150px;
+    background: url("https://www.mymathews.com/media/gallery/ARUNAI_ENGINEERING_-pic_3.JPG");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    position: relative;   /* Important for positioning text */
+}
+
+/* Vice Chairman Text */
+.vice{
+    position: absolute;
+    right: 10px;     /* Move to right */
+    bottom: 130px;    /* Move to bottom */
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
 
